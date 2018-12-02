@@ -1,0 +1,296 @@
+fileFormatVersion: 2
+guid: 65540c31f90f71648892e931badbf50c
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MainPlayer2_0
+    21300002: MainPlayer2_1
+    21300004: MainPlayer2_2
+    21300006: MainPlayer2_3
+    21300008: MainPlayer2_4
+    21300010: MainPlayer2_5
+    21300012: MainPlayer2_6
+    21300014: MainPlayer2_7
+    21300016: MainPlayer2_8
+    21300018: MainPlayer2_9
+    21300020: MainPlayer2_10
+    21300022: MainPlayer2_11
+    21300024: MainPlayer2_12
+    21300026: MainPlayer2_13
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MainPlayer2_0
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 497
+        width: 414
+        height: 364
+      alignment: 9
+      pivot: {x: 0.49758452, y: 0.50549453}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainPlayer2_1
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 753
+        width: 83
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainPlayer2_2
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 762
+        width: 92
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainPlayer2_3
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 557
+        width: 114
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainPlayer2_4
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 551
+        width: 93
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainPlayer2_5
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 429
+        width: 78
+        height: 120
+      alignment: 9
+      pivot: {x: 0.5833333, y: 0.5208334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainPlayer2_6
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 245
+        width: 89
+        height: 151
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainPlayer2_7
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 266
+        width: 84
+        height: 146
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainPlayer2_8
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 333
+        width: 108
+        height: 136
+      alignment: 9
+      pivot: {x: 0.48679098, y: 0.5231393}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainPlayer2_9
+      rect:
+        serializedVersion: 2
+        x: 762.5
+        y: 189
+        width: 232
+        height: 306
+      alignment: 9
+      pivot: {x: 0.5215517, y: 0.48366013}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainPlayer2_10
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 169
+        width: 88
+        height: 181
+      alignment: 9
+      pivot: {x: 0.6534091, y: 0.48342544}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainPlayer2_11
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 6
+        width: 154
+        height: 199
+      alignment: 9
+      pivot: {x: 0.5, y: 0.50502515}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainPlayer2_12
+      rect:
+        serializedVersion: 2
+        x: 361.00003
+        y: 32
+        width: 159.99997
+        height: 200
+      alignment: 9
+      pivot: {x: 0.5031249, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MainPlayer2_13
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 95
+        width: 89
+        height: 190
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49736845}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 101166644828235
+  assetBundleName: 
+  assetBundleVariant: 
