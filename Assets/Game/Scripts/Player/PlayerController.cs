@@ -115,11 +115,11 @@ public class PlayerController : MonoBehaviour
             }
 
         Vector2 velocity = new Vector2(move * speed, player.velocity.y);
-        player.velocity = Vector2.SmoothDamp(player.velocity, velocity, ref l_velocity, 0.5f, Mathf.Infinity, Time.deltaTime * speed);
-        if (jump && !onWall)
+        player.velocity = Vector2.SmoothDamp(player.velocity, velocity, ref l_velocity, 2f, Mathf.Infinity, Time.deltaTime * speed);
+        if (jump)
         {
 
-            if (l_grounded)
+            if (l_grounded && !onWall)
             {
                 player.velocity = new Vector2(player.velocity.x, jumpImpulse);
                 l_grounded = false;
@@ -130,7 +130,9 @@ public class PlayerController : MonoBehaviour
                 {
                     OnDoubleJumpedEvent();
                 }
-                player.velocity = new Vector2(player.velocity.x * 1.3f, jumpImpulse);
+                if (onWall)
+                    player.velocity = new Vector2(player.velocity.x + (3 * jumpImpulse * (-move)), jumpImpulse);
+                else player.velocity = new Vector2(player.velocity.x * 1.3f, jumpImpulse);
                 l_grounded = false;
                 doubleJump = false;
             }
