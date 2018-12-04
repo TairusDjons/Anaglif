@@ -31,18 +31,21 @@ public class WeaponController : MonoBehaviour
 
     void Update ()
     {
-        if (Time.time - attackTimeWindow > currentHit.endAttackWindow && comboStarted)
+        if (currentHit != null)
         {
-            comboStarted = false;
-            currentHit = comboChains;
-            weaponCollider.enabled = false;
-            EndCombo();
-        }
+            if (Time.time - attackTimeWindow > currentHit.endAttackWindow && comboStarted)
+            {
+                comboStarted = false;
+                currentHit = comboChains;
+                weaponCollider.enabled = false;
+                EndCombo();
+            }
 
-        if (Time.time - attackTimeWindow > currentHit.startAttackWindow)
-            weaponCollider.enabled = false;
-        if (Input.GetKeyDown(KeyCode.J))
-            Attack();
+            if (Time.time - attackTimeWindow > currentHit.startAttackWindow)
+                weaponCollider.enabled = false;
+            if (Input.GetKeyDown(KeyCode.J))
+                Attack();
+        }
 	}
 
     public void Attack()
