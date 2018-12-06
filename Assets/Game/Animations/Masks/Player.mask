@@ -5,8 +5,8 @@ AvatarMask:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Player (1)
-  m_Mask: 00000000010000000100000000000000000000000100000001000000010000000100000000000000000000000100000001000000
+  m_Name: Player
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
   m_Elements:
   - m_Path: 
     m_Weight: 1
@@ -50,25 +50,25 @@ AvatarMask:
     m_Weight: 1
   - m_Path: Hips/Spine/RightHand/LowerHand
     m_Weight: 1
-  - m_Path: Hips/Spine/RightHand/LowerHand/Fist
+  - m_Path: Hips/Spine/RightHand/LowerHand/R_Fist
     m_Weight: 1
-  - m_Path: Hips/Spine/RightHand/LowerHand/Fist/RWeaponPlace
+  - m_Path: Hips/Spine/RightHand/LowerHand/R_Fist/RWeaponPlace
     m_Weight: 1
-  - m_Path: Hips/Spine/RightHand/LowerHand/Fist/RWeaponPlace/DaggerPref
+  - m_Path: Hips/Spine/RightHand/LowerHand/R_Fist/RWeaponPlace/DaggerPref
     m_Weight: 1
-  - m_Path: Hips/Spine/RightHand/LowerHand/Fist/RWeaponPlace/DaggerPref/Dagger
+  - m_Path: Hips/Spine/RightHand/LowerHand/R_Fist/RWeaponPlace/DaggerPref/Dagger
     m_Weight: 1
   - m_Path: Hips/Spine/LeftHand
     m_Weight: 1
   - m_Path: Hips/Spine/LeftHand/LowerHand
     m_Weight: 1
-  - m_Path: Hips/Spine/LeftHand/LowerHand/Fist
+  - m_Path: Hips/Spine/LeftHand/LowerHand/L_Fist
     m_Weight: 1
-  - m_Path: Hips/Spine/LeftHand/LowerHand/Fist/LWeaponPlace
+  - m_Path: Hips/Spine/LeftHand/LowerHand/L_Fist/LWeaponPlace
     m_Weight: 1
-  - m_Path: Hips/Spine/LeftHand/LowerHand/Fist/LWeaponPlace/DaggerPref
+  - m_Path: Hips/Spine/LeftHand/LowerHand/L_Fist/LWeaponPlace/DaggerPref
     m_Weight: 1
-  - m_Path: Hips/Spine/LeftHand/LowerHand/Fist/LWeaponPlace/DaggerPref/Dagger
+  - m_Path: Hips/Spine/LeftHand/LowerHand/L_Fist/LWeaponPlace/DaggerPref/Dagger
     m_Weight: 1
   - m_Path: Hips/LeftLeg
     m_Weight: 0

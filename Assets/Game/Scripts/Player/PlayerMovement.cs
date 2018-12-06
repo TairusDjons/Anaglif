@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private float horizontalMove;
     private bool jump;
     private bool crouch;
+    private bool sprint;
 
 	void Update ()
     {
@@ -19,10 +20,14 @@ public class PlayerMovement : MonoBehaviour
             crouch = true;
         else if (Input.GetKeyUp(KeyCode.LeftControl))
             crouch = false;
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+            sprint = true;
+        else if (Input.GetKeyUp(KeyCode.LeftShift)) 
+            sprint = false;
 	}
     private void FixedUpdate()
     {
-        player.MovePlayer(horizontalMove, crouch, jump);
+        player.MovePlayer(horizontalMove, crouch, jump, sprint);
         jump = false;
     }
 }

@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     public Collider2D disableColliderOnCrouch;
     public float speed;
     public float jumpImpulse;
+    public float sprintMulti= 1;
     public float slideImpulse;
     public LayerMask whatIsGround;
     public LayerMask whatIsWall;
@@ -80,7 +81,7 @@ public class PlayerController : MonoBehaviour
             
         }
     }
-    public void MovePlayer(float move, bool crouch, bool jump)
+    public void MovePlayer(float move, bool crouch, bool jump, bool sprint)
     {
         if (!crouch)
             if (Physics2D.OverlapCircle(ceillingCheck.position, ceilingRadius, whatIsGround))
@@ -113,8 +114,8 @@ public class PlayerController : MonoBehaviour
                 disableColliderOnCrouch.enabled = true;
                 l_crouch = false;
             }
-
-        Vector2 velocity = new Vector2(move * speed, player.velocity.y);
+        float mult = sprint ? sprintMulti : 1;
+        Vector2 velocity = new Vector2(move * speed * mult, player.velocity.y);
         player.velocity = Vector2.SmoothDamp(player.velocity, velocity, ref l_velocity, 2f, Mathf.Infinity, Time.deltaTime * speed);
         if (jump)
         {
