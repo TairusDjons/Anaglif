@@ -132,7 +132,10 @@ public class PlayerController : MonoBehaviour
                     OnDoubleJumpedEvent();
                 }
                 if (onWall)
+                {
                     player.velocity = new Vector2(player.velocity.x + (3 * jumpImpulse * (-move)), jumpImpulse);
+                    Flip();
+                }
                 else player.velocity = new Vector2(player.velocity.x * 1.3f, jumpImpulse);
                 l_grounded = false;
                 doubleJump = false;
